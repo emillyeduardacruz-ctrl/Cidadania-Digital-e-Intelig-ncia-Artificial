@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital & IA: Impacto das Deepfakes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Cidadania Digital & IA</h1>
+            <p>Conscientização sobre Deepfakes e Desinformação na Escola</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#sobre">O Problema</a>
+            <a href="#como-identificar">Como Identificar</a>
+            <a href="#quiz">Teste seus Conhecimentos</a>
+            <a href="#seguranca">Boas Práticas</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <section id="sobre">
+            <h2>O Impacto das Deepfakes e da Desinformação</h2>
+            <p>Com o avanço da Inteligência Artificial, a criação de mídias manipuladas (vídeos, áudios e imagens falsas altamente realistas) tornou-se muito mais fácil. Essas tecnologias, conhecidas como <strong>Deepfakes</strong>, quando usadas de má-fé, podem espalhar <em>fake news</em> automatizadas, arruinar reputações e enganar milhares de pessoas em segundos.</p>
+            <blockquote>"Exercer a cidadania digital significa usar a tecnologia de forma crítica, ética e responsável."</blockquote>
+        </section>
+
+        <hr>
+
+        <section id="como-identificar">
+            <h2>Como Identificar Mídias Manipuladas por IA?</h2>
+            <p>Embora as ferramentas de IA estejam cada vez melhores, elas ainda deixam rastros. Fique atento aos seguintes detalhes:</p>
+            <ul>
+                <li><strong>Piscadas não naturais:</strong> Muitas IA têm dificuldade em replicar o piscar de olhos humano normal.</li>
+                <li><strong>Erros na pele e iluminação:</strong> Bordas borradas ao redor do rosto, sombras estranhas ou texturas de pele excessivamente lisas.</li>
+                <li><strong>Áudio desalinhado:</strong> O movimento dos lábios não bate perfeitamente com as palavras faladas.</li>
+                <li><strong>Fundos distorcidos:</strong> Linhas tortas, objetos que desaparecem ou padrões geométricos estranhos ao fundo do vídeo.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="quiz">
+            <h2>Jogo da Verdade: Você sabe identificar um Deepfake?</h2>
+            <p>Responda às perguntas abaixo e teste seu senso crítico digital!</p>
+            
+            <div id="quiz-container">
+                <div class="pergunta" id="p1">
+                    <p><strong>1. Você recebeu um vídeo de um influenciador famoso dizendo algo absurdo, mas a voz dele está ligeiramente robotizada e os lábios não sincronizam bem. O que você faz?</strong></p>
+                    <button onclick="verificarResposta(1, 'errado')">A) Compartilho imediatamente no grupo da escola.</button>
+                    <button onclick="verificarResposta(1, 'certo')">B) Desconfio, não compartilho e busco o assunto em fontes de notícias confiáveis.</button>
+                </div>
+                <div id="resultado-quiz"></div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="seguranca">
+            <h2>Guia de Boas Práticas de Segurança Digital</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ação Recomendada</th>
+                        <th>Por que fazer?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Verifique a fonte original</strong></td>
+                        <td>Evita que você caia em sites clones ou perfis falsos que espalham boatos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Não compartilhe por impulso</strong></td>
+                        <td>A desinformação apela para o emocional. Respire fundo e cheque antes de enviar
